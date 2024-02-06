@@ -1,7 +1,7 @@
 # CurrencyConverter
- I made a currency converter app with React Native - Typescript
- I used Redux, Axios, React-Native-Paper.
- I used api from 'https://freecurrencyapi.com'
+ I made a currency converter app with React Native - Typescript.
+  I used Redux, Axios, React-Native-Paper. 
+  I used api from 'https://freecurrencyapi.com'
 
 
  

@@ -42,6 +42,8 @@ const HomeScreen = () => {
         } else {
             setSecondCurrencyCode(currencyCode)
         }
+        setFirstValue(0)
+        setSecondValue(0)
         closeModal()
     }
 

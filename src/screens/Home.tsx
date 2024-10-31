@@ -68,7 +68,7 @@ const HomeScreen = () => {
     //WE TAKE THE DATA AND CONVERT IT TO LIST.
     useEffect(() => {
         const getData = async () => {
-            const response = await axios.get("https://api.freecurrencyapi.com/v1/latest?apikey=fca_live_0JE7UWNjAtMPsn0b1ZyxzPq7vFXa8XJv3zCRteuP");
+            const response = await axios.get("https://api.freecurrencyapi.com/v1/latest?apikey=YOUR_API_KEY");
             const newData: CurrencyData[] = Object.entries(response.data.data).map(([currencyCode, conversionRate]) => ({
                 currencyCode,
                 conversionRate: conversionRate as number,
